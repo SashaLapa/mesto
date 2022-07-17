@@ -1,0 +1,10 @@
+.profile__name {
+    display: flex;
+    align-items: baseline;
+}
+
+@media (max-width: 320px) {
+    .profile__name {
+        align-items: flex-end;
+    }
+}
