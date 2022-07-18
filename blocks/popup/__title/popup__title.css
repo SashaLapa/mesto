@@ -8,3 +8,9 @@
     min-width: 100%;
     color: #000000;
 }
+
+@media (max-width: 320px) {
+    .popup__title {
+        padding: 25px 0 65px 0;
+    }
+}
