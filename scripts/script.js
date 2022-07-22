@@ -10,11 +10,11 @@ let popupForm = document.querySelector('.popup__form');
 function popupOpen() {
     popupInputName.value = profileTitle.textContent;
     popupInputHobby.value = profileAbout.textContent;
-    popup.classList.add('popup_opened');
+    popup.classList.add('popup__opened');
 }
 
 function popupClose() {
-    popup.classList.remove('popup_opened');
+    popup.classList.remove('popup__opened');
 }
 
 function formSubmitHandler(evt) {
