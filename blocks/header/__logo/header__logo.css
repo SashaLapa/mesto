@@ -1,5 +1,15 @@
+.header__logo {
+    cursor: pointer;
+    background-image: url(../../../image/logo.svg);
+    padding-left: 142px;
+    padding-top: 15px;
+}
+
 @media (max-width: 320px) {
     .header__logo {
-        padding-left: 27px;
+        padding-left: 104px;
+        padding-top: 7px;
+        margin: 15px 0 0 25px;
+        background-image: url(../../../image/121212.svg);
     }
 }

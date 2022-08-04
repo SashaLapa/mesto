@@ -1,4 +1,6 @@
 .element__item {
+    height: 362px;
+    width: 282px;
     border-radius: 10px;
     background-color: #ffffff;
     overflow: hidden;

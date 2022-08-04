@@ -1,5 +1,5 @@
 .popup__close-button {
-    background-image: url(../../../image/Close\ Icon.svg);
+    background-image: url(../../../image/закр.svg);
     background-size: contain;
     position: absolute;
     padding: 0;
@@ -15,6 +15,9 @@
 
 @media (max-width: 768px) {
     .popup__close-button {
-        right: 0px;
+        right: 1px;
+        width: 22px;
+        height: 22px;
+        top: -37px;
     }
 }

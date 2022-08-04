@@ -12,9 +12,10 @@
 <body class="body">
 
     <header class="header">
-        <a href="#" class="header__logo"><img src="./image/logo.svg" alt="Логотип"></a>
+        <a href="#" class="header__logo"><img></a>
     </header>
 
+<main>
     <section class="profile">
         <div class="profile__info">
             <img class="profile__avatar" src="./image/image.jpg" alt="Жак-Ив Кусто">
@@ -55,26 +56,27 @@
             <li class="element__item">
                 <img class="element__img" src="./image/поле.jpg" alt="Горы">
                 <div class="element__info">
-                    <h2 class="element__title">Алтай</h2>
+                    <h2 class="element__title">Гора Эльбрус</h2>
                     <button class="element__group" type="button"></button>
                 </div>
             </li>
             <li class="element__item">
                 <img class="element__img" src="./image/замок.jpg" alt="Замок">
                 <div class="element__info">
-                    <h2 class="element__title">Камчатка</h2>
+                    <h2 class="element__title">Домбай</h2>
                     <button class="element__group" type="button"></button>
                 </div>
             </li>
             <li class="element__item">
                 <img class="element__img" src="./image/гора.jpg" alt="Поле">
                 <div class="element__info">
-                    <h2 class="element__title">Санкт-Петербург</h2>
+                    <h2 class="element__title">Карачаево-Ч...</h2>
                     <button class="element__group" type="button"></button>
                 </div>
             </li>
         </ul>
     </section>
+</main>
 
     <footer class="footer">
         <p class="footer__subtitle">© 2020 Mesto Russia</p>
@@ -84,8 +86,8 @@
         <div class="popup__menu">
             <form class="popup__form" name="popup_id">
                 <h2 class="popup__title">Редактировать профиль</h2>
-                <input class="popup__input popup__input_value-name" type="text" name="Name">
-                <input class="popup__input popup__input_value-hobby" type="text" name="Hobby">
+                <input class="popup__input popup__input_name" type="text" name="Name">
+                <input class="popup__input popup__input_hobby" type="text" name="Hobby">
                 <button class="popup__submit-button" type="submit">Сохранить</button>
             </form>
             <button class="popup__close-button" type="button"></button>

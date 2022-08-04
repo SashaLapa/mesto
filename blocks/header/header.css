@@ -5,7 +5,7 @@
     max-width: 880px;
     min-height: 74px;
     margin: 0 auto;
-    padding-top: 45px;
+    padding-top: 32px;
 }
 
 .header::before {
@@ -24,5 +24,18 @@
     .header {
         max-width: 580px;
         margin: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        min-height: 62px;
+        padding-top: 34px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header::before {
+        bottom: -8px;
     }
 }

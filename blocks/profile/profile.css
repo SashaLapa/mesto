@@ -13,3 +13,10 @@
         align-items: flex-start;
     }
 }
+
+@media (max-width: 320px) {
+    .profile {
+        padding-bottom: 39px;
+        padding-top: 50px;
+    }
+}
