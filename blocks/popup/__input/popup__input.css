@@ -3,12 +3,12 @@
     font-size: 14px;
     line-height: 17px;
     padding-top: 32px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
     width: 358px;
     margin: auto;
     display: block;
     border: none;
-    border-bottom: 1px solid #000000;
+    
     background-color: transparent;
     outline: none;
 }
@@ -16,6 +16,6 @@
 @media (max-width: 320px) {
     .popup__input {
         width: 242px;
-        margin: 0px 8px -2px 18px;
+        margin: 0px 8px 0px 18px;
     }
 }

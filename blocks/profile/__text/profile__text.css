@@ -1,5 +1,11 @@
+.profile__text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 @media (max-width: 320px) {
     .profile__text {
-        padding: 25px 0px 36px 26px;
+        padding: 25px 0px 33px 26px;
     }
 }

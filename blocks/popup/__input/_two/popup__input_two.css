@@ -1,0 +1,6 @@
+@media (max-width: 320px) {
+    .popup__input_two {
+        padding-top: 32px;
+        padding-bottom: 7px;
+    }
+}

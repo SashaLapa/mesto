@@ -6,3 +6,7 @@
     color: #000000;
     cursor: pointer;
 }
+
+.element__title:hover {
+    opacity: 0.6;
+}

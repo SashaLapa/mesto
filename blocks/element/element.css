@@ -17,5 +17,6 @@
     .element {
         grid-template-columns: 100%;
         margin: 0 19px 0 19px;
+        row-gap: 21px;
     }
 }

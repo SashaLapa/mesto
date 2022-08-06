@@ -6,3 +6,7 @@
     background-color: transparent;
     cursor: pointer;
 }
+
+.element__group:hover {
+    opacity: 0.6;
+}

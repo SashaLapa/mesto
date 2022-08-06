@@ -3,9 +3,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+    max-width: 226px;
 }
 
 @media (max-width: 320px) {
@@ -14,5 +12,6 @@
         padding: 8px 0 0 15px;
         font-size: 14px;
         line-height: 17px;
+        max-width: 282px;
     }
 }

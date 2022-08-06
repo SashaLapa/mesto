@@ -1,16 +1,17 @@
 .popup__menu {
     max-width: 430px;
     width: 100%;
+    height: 330px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 10px;
     position: relative;
     box-sizing: border-box;
     box-shadow: 0 0 25px rgb(0 0 0 / 15%);
-    margin-top: -147px;
 }
 
 @media (max-width: 320px) {
     .popup__menu {
         max-width: 282px;
+        height: 322px;
     }
 }
