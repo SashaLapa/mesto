@@ -6,6 +6,12 @@
     max-width: 226px;
 }
 
+@media (max-width: 1024px) {
+    .profile__subtitle {
+        margin: 10px 0px;
+    }
+}
+
 @media (max-width: 320px) {
     .profile__subtitle {
         margin: auto;

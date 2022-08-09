@@ -15,16 +15,16 @@
     opacity: 0.6;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 1024px) {
     .profile__add-button {
-        margin-left: 160px;
+        margin: auto;
     }
-}
+} */
 
 @media (max-width: 320px) {
     .profile__add-button {
         min-width: 282px;
-        margin: 0px 18px;
+        /* margin: 0px 18px; */
         background-image: url(../../../image/331133.png);
     }
 }

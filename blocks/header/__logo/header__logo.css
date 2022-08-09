@@ -5,6 +5,12 @@
     padding-top: 33px;
 }
 
+@media (max-width: 768px) {
+    .header__logo {
+        margin: auto;
+    }
+}
+
 @media (max-width: 320px) {
     .header__logo {
         padding-left: 104px;

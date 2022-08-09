@@ -7,9 +7,17 @@
     margin: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .element {
         grid-template-columns: 282px 282px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .element {
+        grid-template-columns: 282px;
+        justify-content: center;
     }
 }
 
