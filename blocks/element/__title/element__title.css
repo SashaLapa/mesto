@@ -3,10 +3,14 @@
     font-size: 24px;
     line-height: 25px;
     margin: 0;
+    padding: 25px 0px 27px 22px;
     color: #000000;
     cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .element__title:hover {
-    opacity: 0.6;
+    opacity: 0.8;
 }

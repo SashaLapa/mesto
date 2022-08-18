@@ -1,21 +1,20 @@
 .header__logo {
-    cursor: pointer;
     background-image: url(../../../image/logo.svg);
     padding-left: 142px;
     padding-top: 33px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .header__logo {
         margin: auto;
     }
-}
+} */
 
 @media (max-width: 320px) {
     .header__logo {
         padding-left: 104px;
         padding-top: 24px;
-        margin: 13px 0px 14px 26px;
+        margin: 14px 0px 14px 7px;
         background-image: url(../../../image/121212.svg);
     }
 }

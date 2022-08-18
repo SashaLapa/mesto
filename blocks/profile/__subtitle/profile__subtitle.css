@@ -4,11 +4,12 @@
     font-size: 18px;
     line-height: 22px;
     max-width: 226px;
+    padding-left: 30px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .profile__subtitle {
-        margin: 10px 0px;
+        padding-left: 66px;
     }
 }
 

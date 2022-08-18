@@ -5,7 +5,7 @@
     border: 2px solid #ffffff;
     border-radius: 2px;
     padding: 0;
-    background-image: url(../../../image/d.svg);
+    background-image: url(../../../image/Vector.svg);
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -25,6 +25,6 @@
     .profile__add-button {
         min-width: 282px;
         /* margin: 0px 18px; */
-        background-image: url(../../../image/331133.png);
+        background-image: url(../../../image/vectorv.svg);
     }
 }
